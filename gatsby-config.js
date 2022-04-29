@@ -1,8 +1,10 @@
 require("dotenv").config();
 
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
-    title: "Gatsby Blog Demo",
+    title: "Insights",
+    
   },
   plugins: [
     "gatsby-plugin-postcss",
