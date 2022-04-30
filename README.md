@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/645bbdf1-7b52-44e2-bdb6-79272271d259/deploy-status)](https://app.netlify.com/sites/profound-genie-faf84f/deploys)
+
 # Gatsby Blog Website
+
 
 This repo contains a static website written with [GatsbyJS](https://www.gatsbyjs.org/), integrated with content coming from [DatoCMS](https://www.datocms.com).
 
