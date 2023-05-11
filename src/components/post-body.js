@@ -5,7 +5,7 @@ import { StructuredText } from "react-datocms";
 export default function PostBody({ content }) {
   return (
     <div className="max-w-2xl mx-auto">
-      <div className="prose prose-lg prose-h3:text-gray-500 prose-p:text-gray-200">
+      <div className="prose prose-lg prose-p:to-rose-50 dark:prose-dark">
         <StructuredText
           data={content}
           renderBlock={({ record }) => {
