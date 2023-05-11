@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for the dark mode */
+@media (prefers-color-scheme: dark) {
+    /* Add your custom styles for dark mode here */
+  }
+  
