@@ -6,6 +6,7 @@ import MoreStories from "../../components/more-stories";
 import PostBody from "../../components/post-body";
 import PostHeader from "../../components/post-header";
 import SectionSeparator from "../../components/section-separator";
+import Footer from "../../components/footer";
 import { HelmetDatoCms } from "gatsby-source-datocms";
 
 export default function Post({ data: { site, post, morePosts } }) {
@@ -24,6 +25,8 @@ export default function Post({ data: { site, post, morePosts } }) {
       </article>
       <SectionSeparator />
       {morePosts.nodes.length > 0 && <MoreStories posts={morePosts.nodes} />}
+      <SectionSeparator />
+      <Footer />
     </Container>
   );
 }
