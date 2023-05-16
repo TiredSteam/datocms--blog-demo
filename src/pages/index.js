@@ -12,7 +12,7 @@ export default function Index({ data: { allPosts, site, blog } }) {
   const morePosts = allPosts.nodes.slice(1);
 
   return (
-    <><Container>
+    <Container>
       <HelmetDatoCms seo={blog.seo} favicon={site.favicon} />
       <Intro />
       {heroPost && (
@@ -22,11 +22,12 @@ export default function Index({ data: { allPosts, site, blog } }) {
           date={heroPost.date}
           author={heroPost.author}
           slug={heroPost.slug}
-          excerpt={heroPost.excerpt} />
+          excerpt={heroPost.excerpt}
+        />
       )}
       {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-
-    </Container><Footer></Footer></>
+      <Footer />
+    </Container>
   );
 }
 
